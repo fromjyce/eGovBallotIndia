@@ -1,8 +1,15 @@
+// import "../styles/Login.css";
+import Logout from "./components/Logout.js";
+import CastVote from "./components/CastVote.js";
 
+import React, { useEffect } from "react";
 
 function App() {
   return (
-    <h1>HELLO</h1>
+    <>
+      {/* <CastVote /> */}
+      <Logout />
+    </>
   );
 }
 

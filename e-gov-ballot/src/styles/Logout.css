@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'DM Serif Display', serif;
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 49%;
+    /* text-align: center; */
+}
+
+.image{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1400px;
+    margin-top: 40px;
+}
+
+.message{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.thank-you{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #6e6e6e;
+    margin-top: 10px;
+}

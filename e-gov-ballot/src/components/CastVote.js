@@ -1,5 +1,5 @@
 // import "../styles/Login.css";
-import Header from "../components/Header.js";
+import Header from "./Header-Logo.js";
 import "../styles/CastVote.css";
 import CanChoose from "../components/CandidateChoose.js";
 import React, { useEffect } from "react";
