@@ -38,7 +38,7 @@ Our app is also available in local languages like, tamil , hindi and english soo
    - The identity of the candidate will be checked, at the time of voting and will be cross verifing using the hash data available.
    - The candidates who will be added for the participation in the election will be added by the admin, and the identity of the candidate will be randomised and thereby ensuring no data manipulation can be done by the admin at the time of the election.
 
-
+![Phase 1](https://github.com/fromjyce/eGovBallotIndia/assets/128211962/d48e282c-b39a-400d-86c3-15f8ab929d39)
 
 
 
@@ -46,17 +46,25 @@ Our app is also available in local languages like, tamil , hindi and english soo
    - Each voter is given 1 token to cast a single vote. After all the biometrics verification is done in the voting booth, the voter's wallet will be available to him to log in for 5mins. He/She should log in using their voter Id and password and at the backend all their other linked documents will also get verified.
    - When the user logs in, automatically he logs into his metamask wallet as well, from there he/sbe can select any candidate and vote for them by creating a transaction of 1 token. 
    - .
+![Phase 2](https://github.com/fromjyce/eGovBallotIndia/assets/128211962/fa46b5c1-7669-4b67-bf26-635ece527585)
 
 3. **After Voting (Phase 4):**
    - The vote that was done by the voter will be encrypted using Homomorphic encryption and an signature called Ring Signature which acts as a verification that the vote for this person is done and any other vote from the same account through any means will not be considered. It ensures vote authenticity.
-   - Later this encrypted+signed piece of text will be fragmented into few pieces and these fragements will again be encryptred using El-Gamar which ultimately leads to a 2 level encryption and 3 level secured system.    
+   - Later this encrypted+signed piece of text will be fragmented into few pieces and these fragements will again be encryptred using El-Gamar which ultimately leads to a 2 level encryption and 3 level secured system.
+  ![Phase 3](https://github.com/fromjyce/eGovBallotIndia/assets/128211962/1a15219e-345d-4bef-a816-b9e3d08264ea)
 
 4. **Fragments Distribution (Phase 5):**
    - Encrypted fragments are sent to a predefined number of nodes,which has high computatuional power and belongs to the higher government officials and election commission members.
+  
+ ![Phase 4](https://github.com/fromjyce/eGovBallotIndia/assets/128211962/977c56fb-c39e-4618-b49b-5f766b029685)
+
 
 5. **Counting Votes (Phase 6):**
    - After the fragments are distributed over the nodes, the use of homomorphic encryption enables us to use the encrypted data without decrypting, thereby reducing time and computational resource wastage.
    - The votes are calculated, keeping the details of the candidates encrypted thereby avoiding the data manipulation and the need to break in to the system.
+  
+  ![Phase 5](https://github.com/fromjyce/eGovBallotIndia/assets/128211962/d1ca33e4-def0-4c9a-9646-bea5528e6384)
+
 
 6. **Viewing Real-Time Votes (Phase 7):**
    - The E-GOV BALLOT INDIA DApp will also allow the voter to view real time vote counts.
