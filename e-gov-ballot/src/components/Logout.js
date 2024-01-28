@@ -11,8 +11,8 @@ function Logout() {
     };
   }, []);
 
-  const electionname = "LOL";
-  const constname = "lol";
+  const electionname = "Insert Election Name";
+  const constname = "Insert Constituency Name";
 
   return (
     <>

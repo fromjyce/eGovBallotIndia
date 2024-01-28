@@ -3,7 +3,11 @@
 // import LoginAdmin from "./components/Login-Admin.js";
 // import CastVote from "./components/CastVote.js";
 // import Logout from "./components/Logout.js";
-import Dashboard from "./components/DashboardCLR.js";
+// import DashboardInit from "./components/DashboardInit.js";
+// import DashboardCLR from "./components/DashboardCLR.js";
+// import DashboardFinal from "./components/DashboardFinal.js";
+// import AdminDashboard from "./components/AdminDashboard.js";
+import AdminCreateElec from "./components/AdminCreateElec";
 
 function App() {
   return (
@@ -13,7 +17,11 @@ function App() {
       {/* <LoginAdmin /> */}
       {/* <CastVote /> */}
       {/* <Logout /> */}
-      <Dashboard />
+      {/* <DashboardInit /> */}
+      {/* <DashboardCLR /> */}
+      {/* <DashboardFinal /> */}
+      {/* <AdminDashboard /> */}
+      <AdminCreateElec />
     </>
   );
 }

@@ -11,8 +11,8 @@ function CastVote() {
     };
   }, []);
 
-  const electionname = "LOL";
-  const constname = "lol";
+  const electionname = "Insert Election Name";
+  const constname = "Insert Constituency Name";
 
   return (
     <>
@@ -29,7 +29,7 @@ function CastVote() {
       <div className="CastVote" id="CastVote">
         <div className="CastVote-container">
           <h2>{electionname}</h2>
-          <h2>{constname}</h2>
+          <h3>{constname}</h3>
           <h2>CANDIDATES</h2>
           {/* <div> */}
           {/* <ul className="party-details">
