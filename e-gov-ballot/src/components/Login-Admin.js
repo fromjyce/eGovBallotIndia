@@ -1,4 +1,4 @@
-import "../styles/Login-Check.css";
+import "../styles/Login-Admin.css";
 import Language from "./Language.js";
 import Logo from "../assets/ec-logo-center.png";
 import React, { useEffect } from "react";
@@ -15,7 +15,7 @@ function LoginCheck() {
       <div className="Login" id="Login">
         <div className="login-container">
         <img src={Logo} alt="logo" height={150} width={750}/>
-          <h2>VOTER LOGIN</h2>
+          <h2>ADMIN LOGIN</h2>
           <Language />
           <div className="container">
             <p className="heading">SIGN IN</p>

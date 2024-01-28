@@ -20,6 +20,7 @@ function Login() {
         <img src={Logo} alt="logo" height={150} width={750}/>
           <h3>{electionname}</h3>
           <h3>{constname}</h3>
+          <Language />
           <div className="container">
             <p className="heading">SIGN IN</p>
             {/* {% if error_message %}
@@ -45,7 +46,6 @@ function Login() {
               </button>
             </form>
           </div>
-          <Language />
         </div>
       </div>
     </>
