@@ -1,0 +1,31 @@
+.unList{
+    list-style: none;
+}
+
+.Label{
+    margin: 30px 200px;
+    align-items: center;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.candidates{
+    list-style: none;
+}
+
+.CanName{
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.symbol{
+    height: 40px;
+    width: 40px;
+    background-color: #515151;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 44%;
+    padding: 10px 40px;
+    /* text-align: center; */
+}
