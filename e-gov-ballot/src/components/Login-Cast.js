@@ -1,6 +1,6 @@
-import "../styles/Login.css";
+import "../styles/Login-Cast.css";
 import Language from "./Language.js";
-import LogoUpper from "./Logo-upper.js";
+import Logo from "../assets/ec-logo-center.png";
 import React, { useEffect } from "react";
 
 function Login() {
@@ -17,10 +17,9 @@ function Login() {
     <>
       <div className="Login" id="Login">
         <div className="login-container">
-        <LogoUpper />
+        <img src={Logo} alt="logo" height={150} width={750}/>
           <h3>{electionname}</h3>
           <h3>{constname}</h3>
-          <Language />
           <div className="container">
             <p className="heading">SIGN IN</p>
             {/* {% if error_message %}
@@ -46,6 +45,7 @@ function Login() {
               </button>
             </form>
           </div>
+          <Language />
         </div>
       </div>
     </>
