@@ -1,17 +1,15 @@
-// import Login from "./components/Login-Cast.js";
+import Login from "./components/Login-Cast.js";
 // import CastVote from "./components/CastVote.js";
-import Logout from "./components/Logout.js";
-// import LoginCheck from "./components/Login-Check.js";
-// import LoginAdmin from "./components/Login-Admin.js";
+// import Logout from "./components/Logout.js";
+
+import React, { useEffect } from "react";
 
 function App() {
   return (
     <>
-      {/* <Login /> */}
+    <Login />
       {/* <CastVote /> */}
-      <Logout />
-      {/* <LoginCheck /> */}
-      {/* <LoginAdmin /> */}
+      {/* <Logout /> */}
     </>
   );
 }
