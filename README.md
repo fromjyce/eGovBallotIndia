@@ -19,6 +19,7 @@ Shiv Nadar University Chennai.
 ## Links
 
  [User Interface Protype](https://www.canva.com/design/DAF7KrFDQi4/0og_fM4xoRoTsOCv5R6OGw/view?utm_content=DAF7KrFDQi4&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+ [Presentation Link](https://www.canva.com/design/DAF7KeOGj7Q/DMWXo3lZGb8Mze9Zqwkffg/view?utm_content=DAF7KeOGj7Q&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## Introduction
 
