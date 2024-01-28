@@ -1,0 +1,23 @@
+
+.login-center-logo{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    margin-top: 65px;
+}
+
+.login-grey-box {
+    display: inline-block;
+ width: 450px;
+height: 430px;
+  background: #D9D9D9;
+ border-radius: 20px; 
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin-left: 10px;
+ margin-top: 5px;
+}
