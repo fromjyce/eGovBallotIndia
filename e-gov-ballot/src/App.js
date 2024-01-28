@@ -1,4 +1,4 @@
-// import LoginCast from "./components/Login-Cast.js";
+import LoginCast from "./components/Login-Cast.js";
 // import LoginCheck from "./components/Login-Check.js";
 // import LoginAdmin from "./components/Login-Admin.js";
 // import CastVote from "./components/CastVote.js";
@@ -7,12 +7,12 @@
 // import DashboardCLR from "./components/DashboardCLR.js";
 // import DashboardFinal from "./components/DashboardFinal.js";
 // import AdminDashboard from "./components/AdminDashboard.js";
-import AdminCreateElec from "./components/AdminCreateElec";
+// import AdminCreateElec from "./components/AdminCreateElec";
 
 function App() {
   return (
     <>
-      {/* <LoginCast /> */}
+      <LoginCast />
       {/* <LoginCheck /> */}
       {/* <LoginAdmin /> */}
       {/* <CastVote /> */}
@@ -21,7 +21,7 @@ function App() {
       {/* <DashboardCLR /> */}
       {/* <DashboardFinal /> */}
       {/* <AdminDashboard /> */}
-      <AdminCreateElec />
+      {/* <AdminCreateElec /> */}
     </>
   );
 }
