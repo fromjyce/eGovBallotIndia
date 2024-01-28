@@ -8,7 +8,6 @@
 
 ## Team W:
 
-
 - Deepthi Ilangovan
 - Jayashre K
 - Shanmathi Ganesan
@@ -16,6 +15,10 @@
 ## Affiliation
 
 Shiv Nadar University Chennai.
+
+## Links
+
+ [User Interface Protype](https://www.canva.com/design/DAF7KrFDQi4/0og_fM4xoRoTsOCv5R6OGw/view?utm_content=DAF7KrFDQi4&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## Introduction
 
@@ -93,8 +96,10 @@ thereby ensuring data transparency.
   - more Technical support will be needed on the rural side.
 
 ## Tech Stack
-- cosVM
+- CosVM
 - React (UI)
+- HTML, CSS, Javascript
+- HardHat
 - Solidity (Smart Contracts)
 
 ## Installation and Setup
@@ -109,7 +114,7 @@ We welcome contributions to enhance the security, efficiency, and features of th
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License](LICENSE).
 
 ## Acknowledgments
 
